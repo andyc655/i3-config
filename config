@@ -161,5 +161,7 @@ bar {
         tray_output primary
 }
 
+exec --no-startup-id volumeicon
+exec --no-startup-id /usr/lib/gnome-settings-daemon/gnome-settings-daemon
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id "/home/andyc/.config/i3/i3_startup.sh"
